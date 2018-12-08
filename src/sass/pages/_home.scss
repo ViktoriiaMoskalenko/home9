@@ -1,0 +1,304 @@
+.block2-headline {
+  color: #576671;
+  font-family: "Raleway - Extra Light", Arial sans-serif;
+  font-size: $fs+42px;
+  text-align: center;
+}
+
+.block2-p {
+  color: #87949e;
+  font-family: $ff;
+  font-size: $fs;
+  text-align: center;
+}
+
+hr {
+  background-color: #17daa3;
+  width: 100px;
+}
+
+.block2 {
+  display: flex;
+  justify-content: space-around;
+}
+
+.href-h1 {
+  text-decoration: none;
+  color: #111111;
+  text-align: center;
+  font-family: $ff;
+}
+
+.block2-text {
+  text-align: center;
+  color: $color;
+  font-size: $fs;
+  font-family: $ff;
+}
+
+.block2-img {
+  margin-left: 50px;
+  margin-top: 50px;
+}
+
+.block2-nav {
+  display: flex;
+  justify-content: center;
+  border-radius: 25px;
+  background: #17daa3;
+  margin: 0 auto;
+  width: 180px;
+  margin-top: 60px;
+  margin-bottom: 60px;
+}
+
+.block2-nav a {
+  color: #ffffff;
+  font-family: $ff;
+  font-size: $fs+4px;
+  padding: 10px;
+}
+
+.bg-block3 {
+  background-color: #f9f9fa;
+  width: 100%;
+
+}
+
+.block3 {
+  display: flex;
+  justify-content: flex-end;
+  padding: 30px 30px;
+}
+
+.block4 {
+  display: flex;
+  flex-direction: column;
+  padding: 30px 30px 50px 30px;
+
+}
+
+.block3-nav, .block4-nav {
+  border-radius: 25px;
+  background-color: #17daa3;
+  font-family: $ff;
+  font-size: $fs+4px;
+  width: 180px;
+  height: 45px;
+  margin-bottom: 20px;
+}
+
+.block3-nav a, .block4-nav a {
+  padding: 10px 10px 10px 40px;
+  color: #ffffff;
+  display: flex;
+  margin: auto;
+
+}
+
+.block-text {
+  font-family: "Proxima Nova", Arial sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 36px;
+  color: #87949e;
+  margin-bottom: 30px;
+}
+
+.bg-block5 {
+  background-color: #87949e;
+  background-image: url("../img/bg5.png");
+  width: 100%;
+}
+
+.block5-p1 {
+  color: #ffffff;
+  font-family: Raleway, Arial sans-serif;
+  font-size: $fs+2px;
+}
+
+.block5-p1 a {
+  color: green;
+  text-decoration: none;
+}
+
+.block5-p2 {
+  color: #525252;
+  font-family: Raleway, Arial sans-serif;
+  font-size: $fs;
+  margin-left: 100px;
+}
+
+.block5-p2 a {
+  color: #525252;
+
+}
+
+.block5 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  padding-top: 50px;
+
+}
+
+.arrow {
+  margin-top: 70px;
+
+}
+
+.arrow a {
+  color: #ffffff;
+  font-size: 50px;
+  transition: background-color 0.6s ease;
+}
+
+.arrow:hover a {
+  background-color: #525252;
+}
+
+.block5-img {
+  text-align: center;
+}
+
+.cont {
+  padding-bottom: 80px;
+}
+
+.container-text {
+  display: inline-block;
+  margin-left: 26%;
+  text-align: center;
+
+}
+.development{
+  width: 32px;
+  height: 32px;
+  background-image: url("../img/branding-1.png");
+}
+
+.portfolio{
+  width: 32px;
+  height: 32px;
+  background-image: url("../img/branding-2.png");
+}
+
+.branding {
+  width: 32px;
+  height: 32px;
+  background-image: url("../img/branding-3.png");
+}
+
+.design {
+  width: 32px;
+  height: 32px;
+  background-image: url("../img/branding-4.png");
+}
+
+.service-nav {
+  text-align: center;
+  padding-top: 50px;
+}
+
+.block-block {
+  display: flex;
+  justify-content: space-between;
+}
+
+.resume-text {
+  color: #87949e;
+  font-family: "Proxima Nova", Arial sans-serif;
+  font-size: 18px;
+}
+
+.icon {
+  margin-top: -15px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+// секция с картинками
+
+.ket1 {
+  background-image: url("../img/ket1.jpg");
+}
+.ket2 {
+  background-image: url("../img/ket2.png");
+}
+.ket3 {
+  background-image: url("../img/ket3.jpg");
+}
+.ket4 {
+  background-image: url("../img/ket4.jpg");
+}
+.ket5 {
+  background-image: url("../img/ket5.jpg");
+}
+.ket6 {
+  background-image: url("../img/ket6.jpg");
+}
+.ket7 {
+  background-image: url("../img/ket7.jpg");
+}
+.ket8 {
+  background-image: url("../img/ket8.jpg");
+}
+.ket9 {
+  background-image: url("../img/ket1.jpg");
+}
+.ket10 {
+  background-image: url("../img/ket10.jpg");
+}
+.ket1,.ket2, .ket3,.ket4, .ket5,.ket6, .ket7,.ket8, .ket9,.ket10 {
+  width: 360px;
+  height: 340px;
+}
+.photo-ket-blok {
+display: flex;
+  justify-content: space-between;
+  margin-left: -50px;
+}
+.photo-ket-blok1 {
+  display: flex;
+  justify-content: space-around;
+  margin-top: -20px;
+  margin-left: -50px;
+}
+.photo-ket {
+  margin-top: 60px;
+}
+
+//банеры с расценками
+
+.cont-manu {
+  text-align: center;
+}
+.cont-manu h2{
+  border-bottom: 2px solid green;
+  width: 250px;
+  margin: 0 auto;
+}
+
+.bg-block8{
+  background-color: #f9f9fa;
+  width: 100%;
+}
+
+.block8-img{
+  display: flex;
+  justify-content: space-around;
+
+}
+.block8-img a img {
+width: 300px;
+}
+
+.block9{
+  display: flex;
+  justify-content: space-around;
+
+}
+.mapa img{
+  width: 700px;
+  padding-top: 140px;
+}
